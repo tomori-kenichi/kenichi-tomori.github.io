@@ -30,7 +30,9 @@ header {
     
 
 .header-wrapper img{
-    opacity: 0.5; 
+
+    width: 85%;
+    opacity: 1.0; 
 }
 
 .header-wrapper p{
@@ -41,15 +43,13 @@ header {
     transform: translate(30%,-200%);
     margin:0;
     padding:0;
-    color:rgba(173, 224, 171, 1.0);
+    color:rgb(211, 221, 253);
 }
 
-.header-wrapper img{
-    width: 100%;
-    
-}
+
 
 .header-wrapper{
+    text-align: center;
     margin-top: 90px;
 }
 
@@ -58,6 +58,7 @@ header {
     font-size: 60px;
     color:floralwhite;
     padding: 100px 250px;
+    line-height: 2;
 }
 
 .header h3 {
@@ -65,20 +66,21 @@ header {
     color: blue;
 }
 .width-size{
-    padding: 0px 200px 0px 200px;
+    padding: 0px 300px 0px 300px;
 }
-.main {
-margin: 50px;
 
+.main p {
+ 
 }
+
 .btn{
     border: 1px solid #000000;
 }
 
 .senter{
     text-align: center;
-    border-top: 5px solid #dee7ec;
-    border-bottom: 5px solid #dee7ec;
+    border-top: 10px solid #dee7ec;
+    border-bottom: 10px solid #dee7ec;
 }
 
 .image {
@@ -130,3 +132,6 @@ input:hover {
     padding-top: 40px;
     padding-right: 20px;
 }
+
+
+.senter h1{line-height:5}
