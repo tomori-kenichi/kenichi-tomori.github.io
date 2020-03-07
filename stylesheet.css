@@ -31,7 +31,7 @@ header {
     float:right;
     padding:35px 30px
 }
-    
+
 .header-wrapper {
 
     width:100%;
@@ -70,7 +70,15 @@ header {
 }
 
 .width-size{
-    padding: 0px 300px 0px 300px;
+
+  width:80%;
+  margin:0 auto;
+  height:auto;
+  text-align: center;
+}
+
+.width-size ul{
+  list-style:none;
 }
 
 .btn{
@@ -89,8 +97,8 @@ header {
 
 .section-title{
     text-align: center;
-    border-top:5px solid #dee7ec; 
-    border-bottom:5px solid #dee7ec; 
+    border-top:5px solid #dee7ec;
+    border-bottom:5px solid #dee7ec;
     margin-left: 5px;
 }
 
@@ -121,7 +129,7 @@ input:hover {
     font-size:40px;
     opacity: 0.7;
     width:0 auto;
-    padding-top: 30px;   
+    padding-top: 30px;
 }
 
 .footer-list li {
@@ -132,4 +140,3 @@ input:hover {
 
 
 .senter h1{line-height:5}
-
